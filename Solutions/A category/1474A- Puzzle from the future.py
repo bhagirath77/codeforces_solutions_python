@@ -3,6 +3,7 @@ for _ in range(int(input())):
     b=str(input())
     a=[0]*n
     a[0]=1+int(b[0])
+    print("hehe")
     for i in range(1,n):
         if(b[i]=='0'):
             if(a[i-1]==1):
