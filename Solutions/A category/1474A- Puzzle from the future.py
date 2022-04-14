@@ -17,3 +17,4 @@ for _ in range(int(input())):
     for i in range(n):
         a[i]=str(a[i]-int(b[i]))
     print("".join(a))
+    print("Hoho")
